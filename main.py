@@ -21,5 +21,6 @@ image_url = content['url']
 image = download_image(image_url)
 st.image(image)
 
-# st.write(content["explanation"])
+#display explanation
+st.write(content["explanation"])
 
